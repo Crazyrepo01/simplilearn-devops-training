@@ -1494,3 +1494,418 @@ $
 
 Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
 $
+
+
+
+
+Alok@DESKTOP-R2FF76S MINGW64 ~
+$ docker run -d -p 80:80 docker/getting-started
+docker: Error response from daemon: open \\.\pipe\docker_engine_linux: The system cannot find the file specified.
+See 'docker run --help'.
+
+Alok@DESKTOP-R2FF76S MINGW64 ~
+$ docker version
+Client: Docker Engine - Community
+ Cloud integration: 1.0.9
+ Version:           20.10.5
+ API version:       1.41
+ Go version:        go1.13.15
+ Git commit:        55c4c88
+ Built:             Tue Mar  2 20:14:53 2021
+ OS/Arch:           windows/amd64
+ Context:           default
+ Experimental:      true
+Error response from daemon: open \\.\pipe\docker_engine_linux: The system cannot find the file specified.
+
+Alok@DESKTOP-R2FF76S MINGW64 ~
+$ docker version
+Client: Docker Engine - Community
+ Cloud integration: 1.0.9
+ Version:           20.10.5
+ API version:       1.41
+ Go version:        go1.13.15
+ Git commit:        55c4c88
+ Built:             Tue Mar  2 20:14:53 2021
+ OS/Arch:           windows/amd64
+ Context:           default
+ Experimental:      true
+
+Server: Docker Engine - Community
+ Engine:
+  Version:          20.10.5
+  API version:      1.41 (minimum version 1.12)
+  Go version:       go1.13.15
+  Git commit:       363e9a8
+  Built:            Tue Mar  2 20:15:47 2021
+  OS/Arch:          linux/amd64
+  Experimental:     false
+ containerd:
+  Version:          1.4.3
+  GitCommit:        269548fa27e0089a8b8278fc4fc781d7f65a939b
+ runc:
+  Version:          1.0.0-rc92
+  GitCommit:        ff819c7e9184c13b7c2607fe6c30ae19403a7aff
+ docker-init:
+  Version:          0.19.0
+  GitCommit:        de40ad0
+
+Alok@DESKTOP-R2FF76S MINGW64 ~
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~
+$ cd D
+Desktop/   Documents/ Downloads/
+
+Alok@DESKTOP-R2FF76S MINGW64 ~
+$ cd D
+Desktop/   Documents/ Downloads/
+
+Alok@DESKTOP-R2FF76S MINGW64 ~
+$ cd Desktop/s
+SBIcap.txt                   simplilearn-devops-training/
+
+Alok@DESKTOP-R2FF76S MINGW64 ~
+$ cd Desktop/s
+SBIcap.txt                   simplilearn-devops-training/
+
+Alok@DESKTOP-R2FF76S MINGW64 ~
+$ cd Desktop/simplilearn-devops-training/
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ ls -ltr
+total 1801
+-rw-r--r-- 1 Alok 197121    1907 Mar 22 09:17 README.md
+-rw-r--r-- 1 Alok 197121     924 Mar 22 10:18 Jenkinsfile
+-rw-r--r-- 1 Alok 197121      94 Mar 22 10:23 Dockerfile
+-rw-r--r-- 1 Alok 197121 1751724 Mar 22 11:08 StepsByStepsExecution.docx
+-rw-r--r-- 1 Alok 197121   80620 Mar 22 11:09 TerminalLogs.txt
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ docker run --name jenkins-docker -p 8080:8080 -v /var/run/docker.sock:/var/run/docker.sock alokgupta10/simplilearn-devops-training
+docker: Error response from daemon: mkdir C:\Program Files\Git\var: Access is denied.
+See 'docker run --help'.
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/ASAD/Desktop/simplilearn-devops-training/.git/
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ docker login
+Authenticating with existing credentials...
+Login Succeeded
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ docker run --name jenkins-docker -p 8080:8080 -v /var/run/docker.sock:/var/run/docker.sock alokgupta10/simplilearn-devops-training
+docker: Error response from daemon: mkdir C:\Program Files\Git\var: Access is denied.
+See 'docker run --help'.
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ docker run --name jenkins-docker -p 8080:8080 -v /var/run/docker.sock:/var/run/docker.sock alokgupta10/simplilearn-devops-training
+docker: Error response from daemon: mkdir C:\Program Files\Git\var: Access is denied.
+See 'docker run --help'.
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ ls -ltr
+total 1801
+-rw-r--r-- 1 Alok 197121    1907 Mar 22 09:17 README.md
+-rw-r--r-- 1 Alok 197121     924 Mar 22 10:18 Jenkinsfile
+-rw-r--r-- 1 Alok 197121      94 Mar 22 10:23 Dockerfile
+-rw-r--r-- 1 Alok 197121 1751724 Mar 22 11:08 StepsByStepsExecution.docx
+-rw-r--r-- 1 Alok 197121   80620 Mar 22 11:09 TerminalLogs.txt
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Dockerfile
+        Jenkinsfile
+        StepsByStepsExecution.docx
+        TerminalLogs.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ git remote -a
+error: unknown switch `a'
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ git remote -v
+origin  https://github.com/Crazyrepo01/simplilearn-devops-training.git (fetch)
+origin  https://github.com/Crazyrepo01/simplilearn-devops-training.git (push)
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ git add *
+warning: LF will be replaced by CRLF in Dockerfile.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Jenkinsfile.
+The file will have its original line endings in your working directory
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ git add .
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Dockerfile
+        new file:   Jenkinsfile
+        new file:   StepsByStepsExecution.docx
+        new file:   TerminalLogs.txt
+
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ git commit -m "Adding Docker and Jenkin Files"
+[master a4e506b] Adding Docker and Jenkin Files
+ 4 files changed, 1540 insertions(+)
+ create mode 100644 Dockerfile
+ create mode 100644 Jenkinsfile
+ create mode 100644 StepsByStepsExecution.docx
+ create mode 100644 TerminalLogs.txt
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ git push origin master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 1.46 MiB | 389.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Crazyrepo01/simplilearn-devops-training.git
+   086cbb7..a4e506b  master -> master
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ vi Jenkinsfile
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Jenkinsfile
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ git commit -m "Updated Credentials"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Jenkinsfile
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ git push origin master
+Everything up-to-date
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ 1
+bash: 1: command not found
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ git commit -am "Updated Credentials"
+warning: LF will be replaced by CRLF in Jenkinsfile.
+The file will have its original line endings in your working directory
+[master c4c4a25] Updated Credentials
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ git push origin master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 103.28 KiB | 2.07 MiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/Crazyrepo01/simplilearn-devops-training.git
+   a4e506b..c4c4a25  master -> master
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ docker login
+Authenticating with existing credentials...
+Login Succeeded
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ vi Dockerfile
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ vi Dockerfile
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ vi Jenkinsfile
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ git commit -am "updated username"
+warning: LF will be replaced by CRLF in Jenkinsfile.
+The file will have its original line endings in your working directory
+[master 8f2ab21] updated username
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ git push origin master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 104.91 KiB | 1.84 MiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+remote: This repository moved. Please use the new location:
+remote:   https://github.com/alokgupta10/simplilearn-devops-training.git
+To https://github.com/Crazyrepo01/simplilearn-devops-training.git
+   c4c4a25..8f2ab21  master -> master
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ docker run -d -p 80:80 docker/getting-started
+Unable to find image 'docker/getting-started:latest' locally
+latest: Pulling from docker/getting-started
+ba3557a56b15: Already exists
+468d8ccebf7a: Pulling fs layer
+b7f67c5d6ce9: Pulling fs layer
+ed91f01a4fcb: Pulling fs layer
+8051568c89ac: Pulling fs layer
+5b4dcb4d3646: Pulling fs layer
+22ecfaabb4de: Pulling fs layer
+bbaa3642d0a3: Pulling fs layer
+8051568c89ac: Waiting
+5b4dcb4d3646: Waiting
+22ecfaabb4de: Waiting
+bbaa3642d0a3: Waiting
+ed91f01a4fcb: Download complete
+b7f67c5d6ce9: Verifying Checksum
+b7f67c5d6ce9: Download complete
+5b4dcb4d3646: Verifying Checksum
+5b4dcb4d3646: Download complete
+8051568c89ac: Verifying Checksum
+8051568c89ac: Download complete
+bbaa3642d0a3: Verifying Checksum
+bbaa3642d0a3: Download complete
+468d8ccebf7a: Verifying Checksum
+468d8ccebf7a: Download complete
+468d8ccebf7a: Pull complete
+b7f67c5d6ce9: Pull complete
+ed91f01a4fcb: Pull complete
+8051568c89ac: Pull complete
+22ecfaabb4de: Verifying Checksum
+22ecfaabb4de: Download complete
+5b4dcb4d3646: Pull complete
+22ecfaabb4de: Pull complete
+bbaa3642d0a3: Pull complete
+Digest: sha256:67944b53f8a7d16b3d9909315f9d557ade12c4ee4083cd98068f9fe6d9995808
+Status: Downloaded newer image for docker/getting-started:latest
+d2eb980e95263108c4ed3294e1bef0f95fa8c896bf77f8d32434b17fa5ba5437
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ docker images
+REPOSITORY                                TAG       IMAGE ID       CREATED       SIZE
+alokgupta10/docker-test                   11        160a2c0ec347   3 hours ago   1.01GB
+docker/getting-started                    latest    3ba8f2ff0727   3 days ago    27.9MB
+alokgupta10/simplilearn-devops-training   2         39759ca0dc8a   12 days ago   1.23MB
+alokgupta10/simplilearn-devops-training   3         39759ca0dc8a   12 days ago   1.23MB
+alokgupta10/simplilearn-devops-training   7         39759ca0dc8a   12 days ago   1.23MB
+alokgupta10/simplilearn-devops-training   8         39759ca0dc8a   12 days ago   1.23MB
+alokgupta10/simplilearn-devops-training   9         39759ca0dc8a   12 days ago   1.23MB
+alpine/git                                latest    a939554ad0d0   4 weeks ago   25.1MB
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
