@@ -33,7 +33,7 @@ pipeline {
 
 node {
     stage('Execute Image'){
-        def customImage = docker.build("Crazyrepo01/simplilearn-devops-training:${env.BUILD_NUMBER}")
+        def customImage = docker.build("alokgupta10/simplilearn-devops-training:${env.BUILD_NUMBER}")
         customImage.inside {
             sh 'echo This is the code executing inside the container.'
         }
