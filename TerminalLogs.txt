@@ -1,0 +1,1496 @@
+
+Alok@DESKTOP-R2FF76S MINGW64 ~
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~
+$ pwd
+/c/Users/ASAD
+
+Alok@DESKTOP-R2FF76S MINGW64 ~
+$ ls -l
+total 5089
+drwxr-xr-x 1 Alok 197121       0 Mar  4 13:34 '3D Objects'/
+drwxr-xr-x 1 Alok 197121       0 Mar  4 13:24  AppData/
+lrwxrwxrwx 1 Alok 197121      29 Mar  4 13:23 'Application Data' -> /c/Users/ASAD/AppData/Roaming/
+drwxr-xr-x 1 Alok 197121       0 Mar  4 13:34  Contacts/
+lrwxrwxrwx 1 Alok 197121      57 Mar  4 13:23  Cookies -> /c/Users/ASAD/AppData/Local/Microsoft/Windows/INetCookies/
+drwxr-xr-x 1 Alok 197121       0 Mar 20 16:41  Desktop/
+drwxr-xr-x 1 Alok 197121       0 Mar 19 23:03  Documents/
+drwxr-xr-x 1 Alok 197121       0 Mar 20 16:04  Downloads/
+drwxr-xr-x 1 Alok 197121       0 Mar  4 13:34  Favorites/
+drwxr-xr-x 1 Alok 197121       0 Feb 28 12:09  IntelGraphicsProfiles/
+drwxr-xr-x 1 Alok 197121       0 Mar  4 13:34  Links/
+lrwxrwxrwx 1 Alok 197121      27 Mar  4 13:23 'Local Settings' -> /c/Users/ASAD/AppData/Local/
+drwxr-xr-x 1 Alok 197121       0 Mar  4 13:34  Music/
+lrwxrwxrwx 1 Alok 197121      23 Mar  4 13:23 'My Documents' -> /c/Users/ASAD/Documents/
+-rw-r--r-- 1 Alok 197121 2883584 Mar 19 21:22  NTUSER.DAT
+-rw-r--r-- 1 Alok 197121   65536 Mar  4 13:23  NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+-rw-r--r-- 1 Alok 197121  524288 Mar  4 13:23  NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+-rw-r--r-- 1 Alok 197121  524288 Mar  4 13:23  NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+lrwxrwxrwx 1 Alok 197121      65 Mar  4 13:23  NetHood -> '/c/Users/ASAD/AppData/Roaming/Microsoft/Windows/Network Shortcuts'/
+drwxr-xr-x 1 Alok 197121       0 Mar 12 13:02  OneDrive/
+drwxr-xr-x 1 Alok 197121       0 Mar  4 13:34  Pictures/
+lrwxrwxrwx 1 Alok 197121      65 Mar  4 13:23  PrintHood -> '/c/Users/ASAD/AppData/Roaming/Microsoft/Windows/Printer Shortcuts'/
+lrwxrwxrwx 1 Alok 197121      54 Mar  4 13:23  Recent -> /c/Users/ASAD/AppData/Roaming/Microsoft/Windows/Recent/
+drwxr-xr-x 1 Alok 197121       0 Mar  4 13:34 'Saved Games'/
+drwxr-xr-x 1 Alok 197121       0 Mar  4 13:34  Searches/
+lrwxrwxrwx 1 Alok 197121      54 Mar  4 13:23  SendTo -> /c/Users/ASAD/AppData/Roaming/Microsoft/Windows/SendTo/
+lrwxrwxrwx 1 Alok 197121      58 Mar  4 13:23 'Start Menu' -> '/c/Users/ASAD/AppData/Roaming/Microsoft/Windows/Start Menu'/
+lrwxrwxrwx 1 Alok 197121      57 Mar  4 13:23  Templates -> /c/Users/ASAD/AppData/Roaming/Microsoft/Windows/Templates/
+drwxr-xr-x 1 Alok 197121       0 Mar 12 13:01  Videos/
+drwxr-xr-x 1 Alok 197121       0 Mar  3 18:06 'VirtualBox VMs'/
+-rw-r--r-- 1 Alok 197121  806912 Mar  4 13:23  ntuser.dat.LOG1
+-rw-r--r-- 1 Alok 197121  376832 Mar  4 13:23  ntuser.dat.LOG2
+-rw-r--r-- 1 Alok 197121      20 Mar  4 13:33  ntuser.ini
+drwxr-xr-x 1 Alok 197121       0 Mar 17 12:14  source/
+
+Alok@DESKTOP-R2FF76S MINGW64 ~
+$ cd Desktop/
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop
+$ mkdir simplilearn-devops-training
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop
+$ cd simplilearn-devops-training/
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training
+$ touch README.md
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training
+$ pwd
+/c/Users/ASAD/Desktop/simplilearn-devops-training
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training
+$ ls -l
+total 0
+-rw-r--r-- 1 Alok 197121 0 Mar 22 09:15 README.md
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training
+$ vi README.md
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training
+$ cat README.md
+DESCRIPTION
+
+Demonstrate the continuous integration and delivery by building a Docker Jenkins Pipeline.
+
+Problem Statement Scenario:
+
+You are a DevOps consultant in AchiStar Technologies. The company decided to implement DevOps to develop and deliver their products. Since it is an Agile organization, it follows Scrum methodology to develop the projects incrementally. You are working with multiple DevOps Engineers to build a Docker Jenkins Pipeline. During the sprint planning, you agreed to take the lead on this project and plan on the requirements, system configurations, and track the efficiency. The tasks you are responsible for:
+
+        Availability of the application and its versions in the GitHub
+
+                Track their versions every time a code is committed to the repository
+
+        Create a Docker Jenkins Pipeline that will create a Docker image from the Dockerfile and host it on Docker Hub
+
+        It should also pull the Docker image and run it as a Docker container
+
+        Build the Docker Jenkins Pipeline to demonstrate the continuous integration and continuous delivery workflow
+
+Company goal is to deliver the product frequently to the production with high-end quality.
+
+        You must use the following tools:
+
+        Docker: To build the application from a Dockerfile and push it to Docker Hub
+
+        Docker Hub: To store the Docker image
+
+        GitHub: To store the application code and track its revisions
+
+        Git: To connect and push files from the local system to GitHub
+
+        Linux (Ubuntu): As a base operating system to start and execute the project
+
+        Jenkins: To automate the deployment process during continuous integration
+
+Following requirements should be met:
+
+Document the step-by-step process from the initial installation to the final stage
+
+        Track the versions of the code in the GitHub repository
+
+        Availability of the application in the Docker Hub
+
+        Track the build status of Jenkins for every increment of the project
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training
+$ git remote add origin https://github.com/Crazyrepo01/simplilearn-devops-training.git
+fatal: not a git repository (or any of the parent directories): .git
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training
+$ git init
+Initialized empty Git repository in C:/Users/ASAD/Desktop/simplilearn-devops-training/.git/
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ ls -l\
+>
+total 4
+-rw-r--r-- 1 Alok 197121 1907 Mar 22 09:17 README.md
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ git remote add origin https://github.com/Crazyrepo01/simplilearn-devops-training.git
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ git add .
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ git staus
+git: 'staus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
+
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ git commit –m “ Initial Commit”
+error: pathspec '–m' did not match any file(s) known to git
+error: pathspec '“' did not match any file(s) known to git
+error: pathspec 'Initial' did not match any file(s) known to git
+error: pathspec 'Commit”' did not match any file(s) known to git
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ git stagus
+git: 'stagus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
+
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ git commit -m "Initial Commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Alok@DESKTOP-R2FF76S.(none)')
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ git config --global user.name "Crazyrepo01"
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ git config --global user.email "guptaalok1010@gmail.com"
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ git commit -m "Initial Commit"
+[master (root-commit) 086cbb7] Initial Commit
+ 1 file changed, 43 insertions(+)
+ create mode 100644 README.md
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ git push –set-upstream origin master
+error: src refspec origin does not match any
+error: failed to push some refs to '–set-upstream'
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ git branch
+* master
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ git push origin master
+To https://github.com/Crazyrepo01/simplilearn-devops-training.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/Crazyrepo01/simplilearn-devops-training.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ git clone https://github.com/Crazyrepo01/simplilearn-devops-training.git
+Cloning into 'simplilearn-devops-training'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ ls -ltr
+total 4
+-rw-r--r-- 1 Alok 197121 1907 Mar 22 09:17 README.md
+drwxr-xr-x 1 Alok 197121    0 Mar 22 09:26 simplilearn-devops-training/
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ rm -rf simplilearn-devops-training
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ ls -ltr
+total 4
+-rw-r--r-- 1 Alok 197121 1907 Mar 22 09:17 README.md
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ git push origin master
+To https://github.com/Crazyrepo01/simplilearn-devops-training.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/Crazyrepo01/simplilearn-devops-training.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ git push -set-upstream origin master
+error: did you mean `--set-upstream` (with two dashes)?
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ git push --set-upstream origin master
+To https://github.com/Crazyrepo01/simplilearn-devops-training.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/Crazyrepo01/simplilearn-devops-training.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ git branch -a
+* master
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ git config list
+error: key does not contain a section: list
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ git config -list
+error: did you mean `--list` (with two dashes)?
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager-core
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=Crazyrepo01
+user.email=guptaalok1010@gmail.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+remote.origin.url=https://github.com/Crazyrepo01/simplilearn-devops-training.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ git push origin master -force
+error: did you mean `--force` (with two dashes)?
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ git push origin master --force
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 1.03 KiB | 352.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Crazyrepo01/simplilearn-devops-training.git
+ + 7ba5238...086cbb7 master -> master (forced update)
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ docker
+
+Usage:  docker [OPTIONS] COMMAND
+
+A self-sufficient runtime for containers
+
+Options:
+      --config string      Location of client config files (default
+                           "C:\\Users\\ASAD\\.docker")
+  -c, --context string     Name of the context to use to connect to the
+                           daemon (overrides DOCKER_HOST env var and
+                           default context set with "docker context use")
+  -D, --debug              Enable debug mode
+  -H, --host list          Daemon socket(s) to connect to
+  -l, --log-level string   Set the logging level
+                           ("debug"|"info"|"warn"|"error"|"fatal")
+                           (default "info")
+      --tls                Use TLS; implied by --tlsverify
+      --tlscacert string   Trust certs signed only by this CA (default
+                           "C:\\Users\\ASAD\\.docker\\ca.pem")
+      --tlscert string     Path to TLS certificate file (default
+                           "C:\\Users\\ASAD\\.docker\\cert.pem")
+      --tlskey string      Path to TLS key file (default
+                           "C:\\Users\\ASAD\\.docker\\key.pem")
+      --tlsverify          Use TLS and verify the remote
+  -v, --version            Print version information and quit
+
+Management Commands:
+  app*        Docker App (Docker Inc., v0.9.1-beta3)
+  builder     Manage builds
+  buildx*     Build with BuildKit (Docker Inc., v0.5.1-docker)
+  config      Manage Docker configs
+  container   Manage containers
+  context     Manage contexts
+  image       Manage images
+  manifest    Manage Docker image manifests and manifest lists
+  network     Manage networks
+  node        Manage Swarm nodes
+  plugin      Manage plugins
+  scan*       Docker Scan (Docker Inc., v0.5.0)
+  secret      Manage Docker secrets
+  service     Manage services
+  stack       Manage Docker stacks
+  swarm       Manage Swarm
+  system      Manage Docker
+  trust       Manage trust on Docker images
+  volume      Manage volumes
+
+Commands:
+  attach      Attach local standard input, output, and error streams to a running container
+  build       Build an image from a Dockerfile
+  commit      Create a new image from a container's changes
+  cp          Copy files/folders between a container and the local filesystem
+  create      Create a new container
+  diff        Inspect changes to files or directories on a container's filesystem
+  events      Get real time events from the server
+  exec        Run a command in a running container
+  export      Export a container's filesystem as a tar archive
+  history     Show the history of an image
+  images      List images
+  import      Import the contents from a tarball to create a filesystem image
+  info        Display system-wide information
+  inspect     Return low-level information on Docker objects
+  kill        Kill one or more running containers
+  load        Load an image from a tar archive or STDIN
+  login       Log in to a Docker registry
+  logout      Log out from a Docker registry
+  logs        Fetch the logs of a container
+  pause       Pause all processes within one or more containers
+  port        List port mappings or a specific mapping for the container
+  ps          List containers
+  pull        Pull an image or a repository from a registry
+  push        Push an image or a repository to a registry
+  rename      Rename a container
+  restart     Restart one or more containers
+  rm          Remove one or more containers
+  rmi         Remove one or more images
+  run         Run a command in a new container
+  save        Save one or more images to a tar archive (streamed to STDOUT by default)
+  search      Search the Docker Hub for images
+  start       Start one or more stopped containers
+  stats       Display a live stream of container(s) resource usage statistics
+  stop        Stop one or more running containers
+  tag         Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
+  top         Display the running processes of a container
+  unpause     Unpause all processes within one or more containers
+  update      Update configuration of one or more containers
+  version     Show the Docker version information
+  wait        Block until one or more containers stop, then print their exit codes
+
+Run 'docker COMMAND --help' for more information on a command.
+
+To get more help with docker, check out our guides at https://docs.docker.com/go/guides/
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ docker --version
+Docker version 20.10.5, build 55c4c88
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ jenkins --version
+bash: jenkins: command not found
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ jenkins
+bash: jenkins: command not found
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ java
+Usage: java [-options] class [args...]
+           (to execute a class)
+   or  java [-options] -jar jarfile [args...]
+           (to execute a jar file)
+where options include:
+    -d32          use a 32-bit data model if available
+    -d64          use a 64-bit data model if available
+    -server       to select the "server" VM
+                  The default VM is server.
+
+    -cp <class search path of directories and zip/jar files>
+    -classpath <class search path of directories and zip/jar files>
+                  A ; separated list of directories, JAR archives,
+                  and ZIP archives to search for class files.
+    -D<name>=<value>
+                  set a system property
+    -verbose:[class|gc|jni]
+                  enable verbose output
+    -version      print product version and exit
+    -version:<value>
+                  Warning: this feature is deprecated and will be removed
+                  in a future release.
+                  require the specified version to run
+    -showversion  print product version and continue
+    -jre-restrict-search | -no-jre-restrict-search
+                  Warning: this feature is deprecated and will be removed
+                  in a future release.
+                  include/exclude user private JREs in the version search
+    -? -help      print this help message
+    -X            print help on non-standard options
+    -ea[:<packagename>...|:<classname>]
+    -enableassertions[:<packagename>...|:<classname>]
+                  enable assertions with specified granularity
+    -da[:<packagename>...|:<classname>]
+    -disableassertions[:<packagename>...|:<classname>]
+                  disable assertions with specified granularity
+    -esa | -enablesystemassertions
+                  enable system assertions
+    -dsa | -disablesystemassertions
+                  disable system assertions
+    -agentlib:<libname>[=<options>]
+                  load native agent library <libname>, e.g. -agentlib:hprof
+                  see also, -agentlib:jdwp=help and -agentlib:hprof=help
+    -agentpath:<pathname>[=<options>]
+                  load native agent library by full pathname
+    -javaagent:<jarpath>[=<options>]
+                  load Java programming language agent, see java.lang.instrument
+    -splash:<imagepath>
+                  show splash screen with specified image
+See http://www.oracle.com/technetwork/java/javase/documentation/index.html for more details.
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ java --version
+Unrecognized option: --version
+Error: Could not create the Java Virtual Machine.
+Error: A fatal exception has occurred. Program will exit.
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ java -version
+java version "1.8.0_281"
+Java(TM) SE Runtime Environment (build 1.8.0_281-b09)
+Java HotSpot(TM) 64-Bit Server VM (build 25.281-b09, mixed mode)
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ java -jar E:\OperatingSystem\jenkins.war –httpPort=8080
+Error: Unable to access jarfile E:OperatingSystemjenkins.war
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ java -jar E:\OperatingSystem\jenkins.war –httpPort=8080
+Error: Unable to access jarfile E:OperatingSystemjenkins.war
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ java -jar E:\OperatingSystem\jenkins.war –httpPort=8080
+Error: Unable to access jarfile E:OperatingSystemjenkins.war
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ java -jar E:\OperatingSystem\jenkins.war –httpPort=8080
+Error: Unable to access jarfile E:OperatingSystemjenkins.war
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ java -jar E:/OperatingSystem/jenkins.war –httpPort=8080
+Running from: E:\OperatingSystem\jenkins.war
+webroot: $user.home/.jenkins
+2021-03-22 04:13:44.788+0000 [id=1]     INFO    org.eclipse.jetty.util.log.Log#initialized: Logging initialized @3833ms to org.eclipse.jetty.util.log.JavaUtilLog
+2021-03-22 04:13:45.633+0000 [id=1]     INFO    winstone.Logger#logInternal: Beginning extraction from war file
+2021-03-22 04:13:52.195+0000 [id=1]     WARNING o.e.j.s.handler.ContextHandler#setContextPath: Empty contextPath
+2021-03-22 04:13:52.890+0000 [id=1]     INFO    org.eclipse.jetty.server.Server#doStart: jetty-9.4.38.v20210224; built: 2021-02-24T20:25:07.675Z; git: 288f3cc74549e8a913bf363250b0744f2695b8e6; jvm 1.8.0_281-b09
+2021-03-22 04:13:56.814+0000 [id=1]     INFO    o.e.j.w.StandardDescriptorProcessor#visitServlet: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+2021-03-22 04:13:57.099+0000 [id=1]     INFO    o.e.j.s.s.DefaultSessionIdManager#doStart: DefaultSessionIdManager workerName=node0
+2021-03-22 04:13:57.099+0000 [id=1]     INFO    o.e.j.s.s.DefaultSessionIdManager#doStart: No SessionScavenger set, using defaults
+2021-03-22 04:13:57.102+0000 [id=1]     INFO    o.e.j.server.session.HouseKeeper#startScavenging: node0 Scavenging every 600000ms
+2021-03-22 04:14:00.956+0000 [id=1]     INFO    hudson.WebAppMain#contextInitialized: Jenkins home directory: C:\Users\ASAD\.jenkins found at: $user.home/.jenkins
+2021-03-22 04:14:02.884+0000 [id=1]     INFO    o.e.j.s.handler.ContextHandler#doStart: Started w.@4ced35ed{Jenkins v2.277.1,/,file:///C:/Users/ASAD/.jenkins/war/,AVAILABLE}{C:\Users\ASAD\.jenkins\war}
+2021-03-22 04:14:03.116+0000 [id=1]     INFO    o.e.j.server.AbstractConnector#doStop: Stopped ServerConnector@2254127a{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2021-03-22 04:14:03.116+0000 [id=1]     INFO    o.e.j.server.session.HouseKeeper#stopScavenging: node0 Stopped scavenging
+2021-03-22 04:14:03.133+0000 [id=1]     INFO    hudson.WebAppMain#contextDestroyed: Shutting down a Jenkins instance that was still starting up
+java.lang.Throwable: reason
+        at hudson.WebAppMain.contextDestroyed(WebAppMain.java:450)
+        at org.eclipse.jetty.server.handler.ContextHandler.callContextDestroyed(ContextHandler.java:1075)
+        at org.eclipse.jetty.servlet.ServletContextHandler.callContextDestroyed(ServletContextHandler.java:584)
+        at org.eclipse.jetty.server.handler.ContextHandler.contextDestroyed(ContextHandler.java:1038)
+        at org.eclipse.jetty.servlet.ServletHandler.doStop(ServletHandler.java:319)
+        at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:94)
+        at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:180)
+        at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:201)
+        at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:108)
+        at org.eclipse.jetty.security.SecurityHandler.doStop(SecurityHandler.java:437)
+        at org.eclipse.jetty.security.ConstraintSecurityHandler.doStop(ConstraintSecurityHandler.java:423)
+        at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:94)
+        at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:180)
+        at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:201)
+        at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:108)
+        at org.eclipse.jetty.server.session.SessionHandler.doStop(SessionHandler.java:520)
+        at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:94)
+        at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:180)
+        at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:201)
+        at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:108)
+        at org.eclipse.jetty.server.handler.ContextHandler.stopContext(ContextHandler.java:1061)
+        at org.eclipse.jetty.servlet.ServletContextHandler.stopContext(ServletContextHandler.java:386)
+        at org.eclipse.jetty.webapp.WebAppContext.stopWebapp(WebAppContext.java:1454)
+        at org.eclipse.jetty.webapp.WebAppContext.stopContext(WebAppContext.java:1420)
+        at org.eclipse.jetty.server.handler.ContextHandler.doStop(ContextHandler.java:1115)
+        at org.eclipse.jetty.servlet.ServletContextHandler.doStop(ServletContextHandler.java:297)
+        at org.eclipse.jetty.webapp.WebAppContext.doStop(WebAppContext.java:547)
+        at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:94)
+        at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:180)
+        at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:201)
+        at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:108)
+        at org.eclipse.jetty.server.Server.doStop(Server.java:470)
+        at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:94)
+        at winstone.Launcher.shutdown(Launcher.java:318)
+        at winstone.Launcher.<init>(Launcher.java:205)
+        at winstone.Launcher.main(Launcher.java:369)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+        at java.lang.reflect.Method.invoke(Unknown Source)
+        at Main._main(Main.java:375)
+        at Main.main(Main.java:151)
+Exception in thread "Jenkins initialization thread" 2021-03-22 04:14:03.178+0000 [id=1] INFO    o.e.j.s.handler.ContextHandler#doStop: Stopped w.@4ced35ed{Jenkins v2.277.1,/,null,STOPPED}{C:\Users\ASAD\.jenkins\war}
+2021-03-22 04:14:03.198+0000 [id=1]     INFO    winstone.Logger#logInternal: Jetty shutdown successfully
+java.io.IOException: Failed to start Jetty
+        at winstone.Launcher.<init>(Launcher.java:194)
+        at winstone.Launcher.main(Launcher.java:369)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+        at java.lang.reflect.Method.invoke(Unknown Source)
+        at Main._main(Main.java:375)
+        at Main.main(Main.java:151)
+Caused by: java.io.IOException: Failed to bind to 0.0.0.0/0.0.0.0:8080
+        at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:349)
+        at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:310)
+        at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+        at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:234)
+        at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+        at org.eclipse.jetty.server.Server.doStart(Server.java:401)
+        at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+        at winstone.Launcher.<init>(Launcher.java:192)
+        ... 7 more
+Caused by: java.net.BindException: Address already in use: bind
+        at sun.nio.ch.Net.bind0(Native Method)
+        at sun.nio.ch.Net.bind(Unknown Source)
+        at sun.nio.ch.Net.bind(Unknown Source)
+        at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+        at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+        at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:344)
+        ... 14 more
+java.lang.NoClassDefFoundError: hudson/util/HudsonFailedToLoad
+        at hudson.WebAppMain$3.run(WebAppMain.java:309)
+Caused by: java.lang.ClassNotFoundException: hudson.util.HudsonFailedToLoad
+        at java.net.URLClassLoader.findClass(Unknown Source)
+        at java.lang.ClassLoader.loadClass(Unknown Source)
+        at java.lang.ClassLoader.loadClass(Unknown Source)
+        at org.eclipse.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:538)
+        at java.lang.ClassLoader.loadClass(Unknown Source)
+        ... 1 more
+2021-03-22 04:14:03.206+0000 [id=1]     SEVERE  winstone.Logger#logInternal: Container startup failed
+java.net.BindException: Address already in use: bind
+        at sun.nio.ch.Net.bind0(Native Method)
+        at sun.nio.ch.Net.bind(Unknown Source)
+        at sun.nio.ch.Net.bind(Unknown Source)
+        at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+        at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+        at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:344)
+Caused: java.io.IOException: Failed to bind to 0.0.0.0/0.0.0.0:8080
+        at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:349)
+        at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:310)
+        at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+        at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:234)
+        at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+        at org.eclipse.jetty.server.Server.doStart(Server.java:401)
+        at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+        at winstone.Launcher.<init>(Launcher.java:192)
+Caused: java.io.IOException: Failed to start Jetty
+        at winstone.Launcher.<init>(Launcher.java:194)
+        at winstone.Launcher.main(Launcher.java:369)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+        at java.lang.reflect.Method.invoke(Unknown Source)
+        at Main._main(Main.java:375)
+        at Main.main(Main.java:151)
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ cat /etc/hosts
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#       127.0.0.1       localhost
+#       ::1             localhost
+# Added by Docker Desktop
+192.168.0.108 host.docker.internal
+192.168.0.108 gateway.docker.internal
+# To allow the same kube context to work on the host and the container:
+127.0.0.1 kubernetes.docker.internal
+# End of section
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ java -jar E:/OperatingSystem/jenkins.war –httpPort=8080
+
+Running from: E:\OperatingSystem\jenkins.war
+webroot: $user.home/.jenkins
+2021-03-22 04:17:25.431+0000 [id=1]     INFO    org.eclipse.jetty.util.log.Log#initialized: Logging initialized @1025ms to org.eclipse.jetty.util.log.JavaUtilLog
+2021-03-22 04:17:25.700+0000 [id=1]     INFO    winstone.Logger#logInternal: Beginning extraction from war file
+2021-03-22 04:17:25.752+0000 [id=1]     WARNING o.e.j.s.handler.ContextHandler#setContextPath: Empty contextPath
+2021-03-22 04:17:25.879+0000 [id=1]     INFO    org.eclipse.jetty.server.Server#doStart: jetty-9.4.38.v20210224; built: 2021-02-24T20:25:07.675Z; git: 288f3cc74549e8a913bf363250b0744f2695b8e6; jvm 1.8.0_281-b09
+2021-03-22 04:17:27.170+0000 [id=1]     INFO    o.e.j.w.StandardDescriptorProcessor#visitServlet: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+2021-03-22 04:17:27.324+0000 [id=1]     INFO    o.e.j.s.s.DefaultSessionIdManager#doStart: DefaultSessionIdManager workerName=node0
+2021-03-22 04:17:27.325+0000 [id=1]     INFO    o.e.j.s.s.DefaultSessionIdManager#doStart: No SessionScavenger set, using defaults
+2021-03-22 04:17:27.327+0000 [id=1]     INFO    o.e.j.server.session.HouseKeeper#startScavenging: node0 Scavenging every 660000ms
+2021-03-22 04:17:28.419+0000 [id=1]     INFO    hudson.WebAppMain#contextInitialized: Jenkins home directory: C:\Users\ASAD\.jenkins found at: $user.home/.jenkins
+2021-03-22 04:17:28.730+0000 [id=1]     INFO    o.e.j.s.handler.ContextHandler#doStart: Started w.@5117dd67{Jenkins v2.277.1,/,file:///C:/Users/ASAD/.jenkins/war/,AVAILABLE}{C:\Users\ASAD\.jenkins\war}
+2021-03-22 04:17:28.763+0000 [id=1]     INFO    o.e.j.server.AbstractConnector#doStop: Stopped ServerConnector@337d0578{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2021-03-22 04:17:28.764+0000 [id=1]     INFO    o.e.j.server.session.HouseKeeper#stopScavenging: node0 Stopped scavenging
+2021-03-22 04:17:28.779+0000 [id=1]     INFO    hudson.WebAppMain#contextDestroyed: Shutting down a Jenkins instance that was still starting up
+java.lang.Throwable: reason
+        at hudson.WebAppMain.contextDestroyed(WebAppMain.java:450)
+        at org.eclipse.jetty.server.handler.ContextHandler.callContextDestroyed(ContextHandler.java:1075)
+        at org.eclipse.jetty.servlet.ServletContextHandler.callContextDestroyed(ServletContextHandler.java:584)
+        at org.eclipse.jetty.server.handler.ContextHandler.contextDestroyed(ContextHandler.java:1038)
+        at org.eclipse.jetty.servlet.ServletHandler.doStop(ServletHandler.java:319)
+        at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:94)
+        at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:180)
+        at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:201)
+        at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:108)
+        at org.eclipse.jetty.security.SecurityHandler.doStop(SecurityHandler.java:437)
+        at org.eclipse.jetty.security.ConstraintSecurityHandler.doStop(ConstraintSecurityHandler.java:423)
+        at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:94)
+        at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:180)
+        at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:201)
+        at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:108)
+        at org.eclipse.jetty.server.session.SessionHandler.doStop(SessionHandler.java:520)
+        at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:94)
+        at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:180)
+        at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:201)
+        at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:108)
+        at org.eclipse.jetty.server.handler.ContextHandler.stopContext(ContextHandler.java:1061)
+        at org.eclipse.jetty.servlet.ServletContextHandler.stopContext(ServletContextHandler.java:386)
+        at org.eclipse.jetty.webapp.WebAppContext.stopWebapp(WebAppContext.java:1454)
+        at org.eclipse.jetty.webapp.WebAppContext.stopContext(WebAppContext.java:1420)
+        at org.eclipse.jetty.server.handler.ContextHandler.doStop(ContextHandler.java:1115)
+        at org.eclipse.jetty.servlet.ServletContextHandler.doStop(ServletContextHandler.java:297)
+        at org.eclipse.jetty.webapp.WebAppContext.doStop(WebAppContext.java:547)
+        at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:94)
+        at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:180)
+        at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:201)
+        at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:108)
+        at org.eclipse.jetty.server.Server.doStop(Server.java:470)
+        at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:94)
+        at winstone.Launcher.shutdown(Launcher.java:318)
+        at winstone.Launcher.<init>(Launcher.java:205)
+        at winstone.Launcher.main(Launcher.java:369)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+        at java.lang.reflect.Method.invoke(Unknown Source)
+        at Main._main(Main.java:375)
+        at Main.main(Main.java:151)
+Exception in thread "Jenkins initialization thread" 2021-03-22 04:17:28.787+0000 [id=1] INFO    o.e.j.s.handler.ContextHandler#doStop: Stopped w.@5117dd67{Jenkins v2.277.1,/,null,STOPPED}{C:\Users\ASAD\.jenkins\war}
+java.lang.NoClassDefFoundError: hudson/util/HudsonFailedToLoad
+        at hudson.WebAppMain$3.run(WebAppMain.java:309)
+Caused by: java.lang.ClassNotFoundException: hudson.util.HudsonFailedToLoad
+        at java.net.URLClassLoader.findClass(Unknown Source)
+        at java.lang.ClassLoader.loadClass(Unknown Source)
+        at java.lang.ClassLoader.loadClass(Unknown Source)
+        at org.eclipse.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:538)
+        at java.lang.ClassLoader.loadClass(Unknown Source)
+        ... 1 more
+2021-03-22 04:17:28.790+0000 [id=1]     INFO    winstone.Logger#logInternal: Jetty shutdown successfully
+java.io.IOException: Failed to start Jetty
+        at winstone.Launcher.<init>(Launcher.java:194)
+        at winstone.Launcher.main(Launcher.java:369)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+        at java.lang.reflect.Method.invoke(Unknown Source)
+        at Main._main(Main.java:375)
+        at Main.main(Main.java:151)
+Caused by: java.io.IOException: Failed to bind to 0.0.0.0/0.0.0.0:8080
+        at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:349)
+        at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:310)
+        at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+        at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:234)
+        at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+        at org.eclipse.jetty.server.Server.doStart(Server.java:401)
+        at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+        at winstone.Launcher.<init>(Launcher.java:192)
+        ... 7 more
+Caused by: java.net.BindException: Address already in use: bind
+        at sun.nio.ch.Net.bind0(Native Method)
+        at sun.nio.ch.Net.bind(Unknown Source)
+        at sun.nio.ch.Net.bind(Unknown Source)
+        at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+        at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+        at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:344)
+        ... 14 more
+2021-03-22 04:17:28.793+0000 [id=1]     SEVERE  winstone.Logger#logInternal: Container startup failed
+java.net.BindException: Address already in use: bind
+        at sun.nio.ch.Net.bind0(Native Method)
+        at sun.nio.ch.Net.bind(Unknown Source)
+        at sun.nio.ch.Net.bind(Unknown Source)
+        at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+        at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+        at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:344)
+Caused: java.io.IOException: Failed to bind to 0.0.0.0/0.0.0.0:8080
+        at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:349)
+        at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:310)
+        at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+        at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:234)
+        at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+        at org.eclipse.jetty.server.Server.doStart(Server.java:401)
+        at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+        at winstone.Launcher.<init>(Launcher.java:192)
+Caused: java.io.IOException: Failed to start Jetty
+        at winstone.Launcher.<init>(Launcher.java:194)
+        at winstone.Launcher.main(Launcher.java:369)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+        at java.lang.reflect.Method.invoke(Unknown Source)
+        at Main._main(Main.java:375)
+        at Main.main(Main.java:151)
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ cd
+.git/      README.md
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ java -jar E:/OperatingSystem/jenkins.war
+Running from: E:\OperatingSystem\jenkins.war
+webroot: $user.home/.jenkins
+2021-03-22 04:19:04.413+0000 [id=1]     INFO    org.eclipse.jetty.util.log.Log#initialized: Logging initialized @981ms to org.eclipse.jetty.util.log.JavaUtilLog
+2021-03-22 04:19:04.678+0000 [id=1]     INFO    winstone.Logger#logInternal: Beginning extraction from war file
+2021-03-22 04:19:04.727+0000 [id=1]     WARNING o.e.j.s.handler.ContextHandler#setContextPath: Empty contextPath
+2021-03-22 04:19:04.853+0000 [id=1]     INFO    org.eclipse.jetty.server.Server#doStart: jetty-9.4.38.v20210224; built: 2021-02-24T20:25:07.675Z; git: 288f3cc74549e8a913bf363250b0744f2695b8e6; jvm 1.8.0_281-b09
+2021-03-22 04:19:06.022+0000 [id=1]     INFO    o.e.j.w.StandardDescriptorProcessor#visitServlet: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+2021-03-22 04:19:06.120+0000 [id=1]     INFO    o.e.j.s.s.DefaultSessionIdManager#doStart: DefaultSessionIdManager workerName=node0
+2021-03-22 04:19:06.121+0000 [id=1]     INFO    o.e.j.s.s.DefaultSessionIdManager#doStart: No SessionScavenger set, using defaults
+2021-03-22 04:19:06.124+0000 [id=1]     INFO    o.e.j.server.session.HouseKeeper#startScavenging: node0 Scavenging every 660000ms
+2021-03-22 04:19:07.012+0000 [id=1]     INFO    hudson.WebAppMain#contextInitialized: Jenkins home directory: C:\Users\ASAD\.jenkins found at: $user.home/.jenkins
+2021-03-22 04:19:07.240+0000 [id=1]     INFO    o.e.j.s.handler.ContextHandler#doStart: Started w.@5117dd67{Jenkins v2.277.1,/,file:///C:/Users/ASAD/.jenkins/war/,AVAILABLE}{C:\Users\ASAD\.jenkins\war}
+2021-03-22 04:19:07.256+0000 [id=1]     INFO    o.e.j.server.AbstractConnector#doStop: Stopped ServerConnector@337d0578{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2021-03-22 04:19:07.256+0000 [id=1]     INFO    o.e.j.server.session.HouseKeeper#stopScavenging: node0 Stopped scavenging
+2021-03-22 04:19:07.263+0000 [id=1]     INFO    hudson.WebAppMain#contextDestroyed: Shutting down a Jenkins instance that was still starting up
+java.lang.Throwable: reason
+        at hudson.WebAppMain.contextDestroyed(WebAppMain.java:450)
+        at org.eclipse.jetty.server.handler.ContextHandler.callContextDestroyed(ContextHandler.java:1075)
+        at org.eclipse.jetty.servlet.ServletContextHandler.callContextDestroyed(ServletContextHandler.java:584)
+        at org.eclipse.jetty.server.handler.ContextHandler.contextDestroyed(ContextHandler.java:1038)
+        at org.eclipse.jetty.servlet.ServletHandler.doStop(ServletHandler.java:319)
+        at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:94)
+        at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:180)
+        at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:201)
+        at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:108)
+        at org.eclipse.jetty.security.SecurityHandler.doStop(SecurityHandler.java:437)
+        at org.eclipse.jetty.security.ConstraintSecurityHandler.doStop(ConstraintSecurityHandler.java:423)
+        at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:94)
+        at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:180)
+        at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:201)
+        at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:108)
+        at org.eclipse.jetty.server.session.SessionHandler.doStop(SessionHandler.java:520)
+        at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:94)
+        at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:180)
+        at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:201)
+        at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:108)
+        at org.eclipse.jetty.server.handler.ContextHandler.stopContext(ContextHandler.java:1061)
+        at org.eclipse.jetty.servlet.ServletContextHandler.stopContext(ServletContextHandler.java:386)
+        at org.eclipse.jetty.webapp.WebAppContext.stopWebapp(WebAppContext.java:1454)
+        at org.eclipse.jetty.webapp.WebAppContext.stopContext(WebAppContext.java:1420)
+        at org.eclipse.jetty.server.handler.ContextHandler.doStop(ContextHandler.java:1115)
+        at org.eclipse.jetty.servlet.ServletContextHandler.doStop(ServletContextHandler.java:297)
+        at org.eclipse.jetty.webapp.WebAppContext.doStop(WebAppContext.java:547)
+        at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:94)
+        at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:180)
+        at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:201)
+        at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:108)
+        at org.eclipse.jetty.server.Server.doStop(Server.java:470)
+        at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:94)
+        at winstone.Launcher.shutdown(Launcher.java:318)
+        at winstone.Launcher.<init>(Launcher.java:205)
+        at winstone.Launcher.main(Launcher.java:369)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+        at java.lang.reflect.Method.invoke(Unknown Source)
+        at Main._main(Main.java:375)
+        at Main.main(Main.java:151)
+2021-03-22 04:19:07.269+0000 [id=1]     INFO    o.e.j.s.handler.ContextHandler#doStop: Stopped w.@5117dd67{Jenkins v2.277.1,/,null,STOPPED}{C:\Users\ASAD\.jenkins\war}
+Exception in thread "Jenkins initialization thread" java.lang.NoClassDefFoundError: hudson/util/HudsonFailedToLoad
+        at hudson.WebAppMain$3.run(WebAppMain.java:309)
+Caused by: java.lang.ClassNotFoundException: hudson.util.HudsonFailedToLoad
+        at java.net.URLClassLoader.findClass(Unknown Source)
+        at java.lang.ClassLoader.loadClass(Unknown Source)
+        at java.lang.ClassLoader.loadClass(Unknown Source)
+        at org.eclipse.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:538)
+        at java.lang.ClassLoader.loadClass(Unknown Source)
+        ... 1 more
+2021-03-22 04:19:07.272+0000 [id=1]     INFO    winstone.Logger#logInternal: Jetty shutdown successfully
+java.io.IOException: Failed to start Jetty
+        at winstone.Launcher.<init>(Launcher.java:194)
+        at winstone.Launcher.main(Launcher.java:369)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+        at java.lang.reflect.Method.invoke(Unknown Source)
+        at Main._main(Main.java:375)
+        at Main.main(Main.java:151)
+Caused by: java.io.IOException: Failed to bind to 0.0.0.0/0.0.0.0:8080
+        at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:349)
+        at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:310)
+        at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+        at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:234)
+        at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+        at org.eclipse.jetty.server.Server.doStart(Server.java:401)
+        at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+        at winstone.Launcher.<init>(Launcher.java:192)
+        ... 7 more
+Caused by: java.net.BindException: Address already in use: bind
+        at sun.nio.ch.Net.bind0(Native Method)
+        at sun.nio.ch.Net.bind(Unknown Source)
+        at sun.nio.ch.Net.bind(Unknown Source)
+        at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+        at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+        at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:344)
+        ... 14 more
+2021-03-22 04:19:07.275+0000 [id=1]     SEVERE  winstone.Logger#logInternal: Container startup failed
+java.net.BindException: Address already in use: bind
+        at sun.nio.ch.Net.bind0(Native Method)
+        at sun.nio.ch.Net.bind(Unknown Source)
+        at sun.nio.ch.Net.bind(Unknown Source)
+        at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+        at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+        at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:344)
+Caused: java.io.IOException: Failed to bind to 0.0.0.0/0.0.0.0:8080
+        at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:349)
+        at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:310)
+        at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+        at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:234)
+        at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+        at org.eclipse.jetty.server.Server.doStart(Server.java:401)
+        at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+        at winstone.Launcher.<init>(Launcher.java:192)
+Caused: java.io.IOException: Failed to start Jetty
+        at winstone.Launcher.<init>(Launcher.java:194)
+        at winstone.Launcher.main(Launcher.java:369)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+        at java.lang.reflect.Method.invoke(Unknown Source)
+        at Main._main(Main.java:375)
+        at Main.main(Main.java:151)
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ net
+The syntax of this command is:
+
+NET
+    [ ACCOUNTS | COMPUTER | CONFIG | CONTINUE | FILE | GROUP | HELP |
+      HELPMSG | LOCALGROUP | PAUSE | SESSION | SHARE | START |
+      STATISTICS | STOP | TIME | USE | USER | VIEW ]
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ net start jenkins
+System error 5 has occurred.
+
+Access is denied.
+
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ net view jenkins
+System error 53 has occurred.
+
+The network path was not found.
+
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ net
+The syntax of this command is:
+
+NET
+    [ ACCOUNTS | COMPUTER | CONFIG | CONTINUE | FILE | GROUP | HELP |
+      HELPMSG | LOCALGROUP | PAUSE | SESSION | SHARE | START |
+      STATISTICS | STOP | TIME | USE | USER | VIEW ]
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ net session
+System error 5 has occurred.
+
+Access is denied.
+
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ jenkins
+bash: jenkins: command not found
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ docker --version
+Docker version 20.10.5, build 55c4c88
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ java --version
+Unrecognized option: --version
+Error: Could not create the Java Virtual Machine.
+Error: A fatal exception has occurred. Program will exit.
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ java -version
+java version "1.8.0_281"
+Java(TM) SE Runtime Environment (build 1.8.0_281-b09)
+Java HotSpot(TM) 64-Bit Server VM (build 25.281-b09, mixed mode)
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ ls -ltr
+total 4
+-rw-r--r-- 1 Alok 197121 1907 Mar 22 09:17 README.md
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ vi Jenkinsfile
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ cat Jenkinsfile
+pipeline {
+  environment {
+    registry = "Crazyrepo01/simplilearn-devops-training"
+    registryCredential = 'dockerhub'
+  }
+  agent any
+  stages {
+        stage('Building Image') {
+        steps{
+            script {
+            dockerImage = docker.build registry + ":$BUILD_NUMBER"
+            }
+        }
+        }
+
+        stage('Deploy Image') {
+        steps{
+            script {
+            docker.withRegistry( '', 'dockerhub' ) {
+                dockerImage.push()
+            }
+            }
+        }
+        }
+
+        stage('Remove Unused Docker Image') {
+        steps{
+            sh "docker rmi $registry:$BUILD_NUMBER"
+        }
+        }
+   }
+}
+
+node {
+    stage('Execute Image'){
+        def customImage = docker.build("Crazyrepo01/simplilearn-devops-training:${env.BUILD_NUMBER}")
+        customImage.inside {
+            sh 'echo This is the code executing inside the container.'
+        }
+    }
+}
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ ls -ltr
+total 8
+-rw-r--r-- 1 Alok 197121 1907 Mar 22 09:17 README.md
+-rw-r--r-- 1 Alok 197121  924 Mar 22 10:18 Jenkinsfile
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ touch Dockerfile
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ ls -ltr
+total 8
+-rw-r--r-- 1 Alok 197121 1907 Mar 22 09:17 README.md
+-rw-r--r-- 1 Alok 197121  924 Mar 22 10:18 Jenkinsfile
+-rw-r--r-- 1 Alok 197121    0 Mar 22 10:21 Dockerfile
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ vi Dockerfile
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ cat Dockerfile
+# Dockerfile
+From busybox
+CMD echo "Hello World, This is my first Simplilearn Docker Images."
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ docker run --name jenkins-docker -p 8080:8080 -v /var/run/docker.sock:/var/run/docker.sock alokgupta10/simplilearn-devops-training
+docker: error during connect: This error may indicate that the docker daemon is not running.: Post http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/containers/create?name=jenkins-docker: open //./pipe/docker_engine: The system cannot find the file specified.
+See 'docker run --help'.
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ docker -version
+unknown shorthand flag: 'e' in -ersion
+See 'docker --help'.
+
+Usage:  docker [OPTIONS] COMMAND
+
+A self-sufficient runtime for containers
+
+Options:
+      --config string      Location of client config files (default
+                           "C:\\Users\\ASAD\\.docker")
+  -c, --context string     Name of the context to use to connect to the
+                           daemon (overrides DOCKER_HOST env var and
+                           default context set with "docker context use")
+  -D, --debug              Enable debug mode
+  -H, --host list          Daemon socket(s) to connect to
+  -l, --log-level string   Set the logging level
+                           ("debug"|"info"|"warn"|"error"|"fatal")
+                           (default "info")
+      --tls                Use TLS; implied by --tlsverify
+      --tlscacert string   Trust certs signed only by this CA (default
+                           "C:\\Users\\ASAD\\.docker\\ca.pem")
+      --tlscert string     Path to TLS certificate file (default
+                           "C:\\Users\\ASAD\\.docker\\cert.pem")
+      --tlskey string      Path to TLS key file (default
+                           "C:\\Users\\ASAD\\.docker\\key.pem")
+      --tlsverify          Use TLS and verify the remote
+  -v, --version            Print version information and quit
+
+Management Commands:
+  app*        Docker App (Docker Inc., v0.9.1-beta3)
+  builder     Manage builds
+  buildx*     Build with BuildKit (Docker Inc., v0.5.1-docker)
+  config      Manage Docker configs
+  container   Manage containers
+  context     Manage contexts
+  image       Manage images
+  manifest    Manage Docker image manifests and manifest lists
+  network     Manage networks
+  node        Manage Swarm nodes
+  plugin      Manage plugins
+  scan*       Docker Scan (Docker Inc., v0.5.0)
+  secret      Manage Docker secrets
+  service     Manage services
+  stack       Manage Docker stacks
+  swarm       Manage Swarm
+  system      Manage Docker
+  trust       Manage trust on Docker images
+  volume      Manage volumes
+
+Commands:
+  attach      Attach local standard input, output, and error streams to a running container
+  build       Build an image from a Dockerfile
+  commit      Create a new image from a container's changes
+  cp          Copy files/folders between a container and the local filesystem
+  create      Create a new container
+  diff        Inspect changes to files or directories on a container's filesystem
+  events      Get real time events from the server
+  exec        Run a command in a running container
+  export      Export a container's filesystem as a tar archive
+  history     Show the history of an image
+  images      List images
+  import      Import the contents from a tarball to create a filesystem image
+  info        Display system-wide information
+  inspect     Return low-level information on Docker objects
+  kill        Kill one or more running containers
+  load        Load an image from a tar archive or STDIN
+  login       Log in to a Docker registry
+  logout      Log out from a Docker registry
+  logs        Fetch the logs of a container
+  pause       Pause all processes within one or more containers
+  port        List port mappings or a specific mapping for the container
+  ps          List containers
+  pull        Pull an image or a repository from a registry
+  push        Push an image or a repository to a registry
+  rename      Rename a container
+  restart     Restart one or more containers
+  rm          Remove one or more containers
+  rmi         Remove one or more images
+  run         Run a command in a new container
+  save        Save one or more images to a tar archive (streamed to STDOUT by default)
+  search      Search the Docker Hub for images
+  start       Start one or more stopped containers
+  stats       Display a live stream of container(s) resource usage statistics
+  stop        Stop one or more running containers
+  tag         Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
+  top         Display the running processes of a container
+  unpause     Unpause all processes within one or more containers
+  update      Update configuration of one or more containers
+  version     Show the Docker version information
+  wait        Block until one or more containers stop, then print their exit codes
+
+Run 'docker COMMAND --help' for more information on a command.
+
+To get more help with docker, check out our guides at https://docs.docker.com/go/guides/
+
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ docker --version
+Docker version 20.10.5, build 55c4c88
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ docker run --name jenkins-docker -p 8080:8080 -v /var/run/docker.sock:/var/run/docker.sock alokgupta10/simplilearn-devops-training
+docker: error during connect: This error may indicate that the docker daemon is not running.: Post http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/containers/create?name=jenkins-docker: open //./pipe/docker_engine: The system cannot find the file specified.
+See 'docker run --help'.
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ docker run --help
+
+Usage:  docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
+
+Run a command in a new container
+
+Options:
+      --add-host list                  Add a custom host-to-IP mapping
+                                       (host:ip)
+  -a, --attach list                    Attach to STDIN, STDOUT or STDERR
+      --blkio-weight uint16            Block IO (relative weight),
+                                       between 10 and 1000, or 0 to
+                                       disable (default 0)
+      --blkio-weight-device list       Block IO weight (relative device
+                                       weight) (default [])
+      --cap-add list                   Add Linux capabilities
+      --cap-drop list                  Drop Linux capabilities
+      --cgroup-parent string           Optional parent cgroup for the
+                                       container
+      --cgroupns string                Cgroup namespace to use
+                                       (host|private)
+                                       'host':    Run the container in
+                                       the Docker host's cgroup namespace
+                                       'private': Run the container in
+                                       its own private cgroup namespace
+                                       '':        Use the cgroup
+                                       namespace as configured by the
+                                                  default-cgroupns-mode
+                                       option on the daemon (default)
+      --cidfile string                 Write the container ID to the file
+      --cpu-period int                 Limit CPU CFS (Completely Fair
+                                       Scheduler) period
+      --cpu-quota int                  Limit CPU CFS (Completely Fair
+                                       Scheduler) quota
+      --cpu-rt-period int              Limit CPU real-time period in
+                                       microseconds
+      --cpu-rt-runtime int             Limit CPU real-time runtime in
+                                       microseconds
+  -c, --cpu-shares int                 CPU shares (relative weight)
+      --cpus decimal                   Number of CPUs
+      --cpuset-cpus string             CPUs in which to allow execution
+                                       (0-3, 0,1)
+      --cpuset-mems string             MEMs in which to allow execution
+                                       (0-3, 0,1)
+  -d, --detach                         Run container in background and
+                                       print container ID
+      --detach-keys string             Override the key sequence for
+                                       detaching a container
+      --device list                    Add a host device to the container
+      --device-cgroup-rule list        Add a rule to the cgroup allowed
+                                       devices list
+      --device-read-bps list           Limit read rate (bytes per second)
+                                       from a device (default [])
+      --device-read-iops list          Limit read rate (IO per second)
+                                       from a device (default [])
+      --device-write-bps list          Limit write rate (bytes per
+                                       second) to a device (default [])
+      --device-write-iops list         Limit write rate (IO per second)
+                                       to a device (default [])
+      --disable-content-trust          Skip image verification (default true)
+      --dns list                       Set custom DNS servers
+      --dns-option list                Set DNS options
+      --dns-search list                Set custom DNS search domains
+      --domainname string              Container NIS domain name
+      --entrypoint string              Overwrite the default ENTRYPOINT
+                                       of the image
+  -e, --env list                       Set environment variables
+      --env-file list                  Read in a file of environment variables
+      --expose list                    Expose a port or a range of ports
+      --gpus gpu-request               GPU devices to add to the
+                                       container ('all' to pass all GPUs)
+      --group-add list                 Add additional groups to join
+      --health-cmd string              Command to run to check health
+      --health-interval duration       Time between running the check
+                                       (ms|s|m|h) (default 0s)
+      --health-retries int             Consecutive failures needed to
+                                       report unhealthy
+      --health-start-period duration   Start period for the container to
+                                       initialize before starting
+                                       health-retries countdown
+                                       (ms|s|m|h) (default 0s)
+      --health-timeout duration        Maximum time to allow one check to
+                                       run (ms|s|m|h) (default 0s)
+      --help                           Print usage
+  -h, --hostname string                Container host name
+      --init                           Run an init inside the container
+                                       that forwards signals and reaps
+                                       processes
+  -i, --interactive                    Keep STDIN open even if not attached
+      --ip string                      IPv4 address (e.g., 172.30.100.104)
+      --ip6 string                     IPv6 address (e.g., 2001:db8::33)
+      --ipc string                     IPC mode to use
+      --isolation string               Container isolation technology
+      --kernel-memory bytes            Kernel memory limit
+  -l, --label list                     Set meta data on a container
+      --label-file list                Read in a line delimited file of labels
+      --link list                      Add link to another container
+      --link-local-ip list             Container IPv4/IPv6 link-local
+                                       addresses
+      --log-driver string              Logging driver for the container
+      --log-opt list                   Log driver options
+      --mac-address string             Container MAC address (e.g.,
+                                       92:d0:c6:0a:29:33)
+  -m, --memory bytes                   Memory limit
+      --memory-reservation bytes       Memory soft limit
+      --memory-swap bytes              Swap limit equal to memory plus
+                                       swap: '-1' to enable unlimited swap
+      --memory-swappiness int          Tune container memory swappiness
+                                       (0 to 100) (default -1)
+      --mount mount                    Attach a filesystem mount to the
+                                       container
+      --name string                    Assign a name to the container
+      --network network                Connect a container to a network
+      --network-alias list             Add network-scoped alias for the
+                                       container
+      --no-healthcheck                 Disable any container-specified
+                                       HEALTHCHECK
+      --oom-kill-disable               Disable OOM Killer
+      --oom-score-adj int              Tune host's OOM preferences (-1000
+                                       to 1000)
+      --pid string                     PID namespace to use
+      --pids-limit int                 Tune container pids limit (set -1
+                                       for unlimited)
+      --platform string                Set platform if server is
+                                       multi-platform capable
+      --privileged                     Give extended privileges to this
+                                       container
+  -p, --publish list                   Publish a container's port(s) to
+                                       the host
+  -P, --publish-all                    Publish all exposed ports to
+                                       random ports
+      --pull string                    Pull image before running
+                                       ("always"|"missing"|"never")
+                                       (default "missing")
+      --read-only                      Mount the container's root
+                                       filesystem as read only
+      --restart string                 Restart policy to apply when a
+                                       container exits (default "no")
+      --rm                             Automatically remove the container
+                                       when it exits
+      --runtime string                 Runtime to use for this container
+      --security-opt list              Security Options
+      --shm-size bytes                 Size of /dev/shm
+      --sig-proxy                      Proxy received signals to the
+                                       process (default true)
+      --stop-signal string             Signal to stop a container
+                                       (default "15")
+      --stop-timeout int               Timeout (in seconds) to stop a
+                                       container
+      --storage-opt list               Storage driver options for the
+                                       container
+      --sysctl map                     Sysctl options (default map[])
+      --tmpfs list                     Mount a tmpfs directory
+  -t, --tty                            Allocate a pseudo-TTY
+      --ulimit ulimit                  Ulimit options (default [])
+  -u, --user string                    Username or UID (format:
+                                       <name|uid>[:<group|gid>])
+      --userns string                  User namespace to use
+      --uts string                     UTS namespace to use
+  -v, --volume list                    Bind mount a volume
+      --volume-driver string           Optional volume driver for the
+                                       container
+      --volumes-from list              Mount volumes from the specified
+                                       container(s)
+  -w, --workdir string                 Working directory inside the container
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ docker run --name jenkins-docker -p 8080:8080 -v /var/run/docker.sock:/var/run/docker.sock alokgupta10/simplilearn-devops-training
+docker: error during connect: This error may indicate that the docker daemon is not running.: Post http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/containers/create?name=jenkins-docker: open //./pipe/docker_engine: The system cannot find the file specified.
+See 'docker run --help'.
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ docker version
+Client: Docker Engine - Community
+ Cloud integration: 1.0.9
+ Version:           20.10.5
+ API version:       1.41
+ Go version:        go1.13.15
+ Git commit:        55c4c88
+ Built:             Tue Mar  2 20:14:53 2021
+ OS/Arch:           windows/amd64
+ Context:           default
+ Experimental:      true
+error during connect: This error may indicate that the docker daemon is not running.: Get http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/version: open //./pipe/docker_engine: The system cannot find the file specified.
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ docker version
+Client: Docker Engine - Community
+ Cloud integration: 1.0.9
+ Version:           20.10.5
+ API version:       1.41
+ Go version:        go1.13.15
+ Git commit:        55c4c88
+ Built:             Tue Mar  2 20:14:53 2021
+ OS/Arch:           windows/amd64
+ Context:           default
+ Experimental:      true
+error during connect: This error may indicate that the docker daemon is not running.: Get http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/version: open //./pipe/docker_engine: The system cannot find the file specified.
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ docker version
+bash: /c/ProgramData/DockerDesktop/version-bin/docker: No such file or directory
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$ docker
+bash: /c/ProgramData/DockerDesktop/version-bin/docker: No such file or directory
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
+
+Alok@DESKTOP-R2FF76S MINGW64 ~/Desktop/simplilearn-devops-training (master)
+$
